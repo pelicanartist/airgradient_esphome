@@ -2,4 +2,4 @@ sensor:
   - platform: wifi_signal
     name: "WiFi Signal"
     id: wifi_dbm
-    update_interval: 60s
+    update_interval: 120s
