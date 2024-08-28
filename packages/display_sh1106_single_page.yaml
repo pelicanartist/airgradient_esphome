@@ -20,9 +20,9 @@ display:
     model: "SH1106 128x64"
     id: oled_display
     address: 0x3C
-    #rotation: 180 # doesn't work!
+    rotation: 180 # doesn't work!
     #flip_y: true
-    rotation: 2
+    #rotation: 2
     pages:
       - id: airgradient_default
         # https://forum.airgradient.com/t/airgradient-one-customized-mallocarray-esphome-display/1328
