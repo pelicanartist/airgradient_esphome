@@ -20,8 +20,8 @@ display:
     model: "SH1106 128x64"
     id: oled_display
     address: 0x3C
-    rotation: 180 # doesn't work!
-    #flip_y: true
+    #rotation: 180 # doesn't work!
+    flip_y: true
     #rotation: 2
     pages:
       - id: airgradient_default
